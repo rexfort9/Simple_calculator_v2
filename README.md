@@ -6,4 +6,4 @@ In order to practice something new, I implemented colour scheme with [Colorama](
 It requires pip <br>
 ### TO RUN IT: <br>
 • pip install colorama <br>
-• With any preferred compiler run "Calc.py"
+• With any preferred compiler run "Calcbase.py"
