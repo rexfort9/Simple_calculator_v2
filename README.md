@@ -17,7 +17,7 @@ New features: <br>
 
 UPD 02 <br>
 ----
-You may find an .exe file, compiled for Windows(Console Based) view [here](https://github.com/rexfort9/Simple_calculator_v2/commit/84cac9b430046ec263444f34541d9b5cf7125d93)  <br>
+You may find an .exe file, compiled for Windows(Console Based) view [here](https://github.com/rexfort9/Simple_calculator_v2/blob/main/Calc_2.0.exe)  <br>
 
 <br>
 ### TO RUN IT: <br>
