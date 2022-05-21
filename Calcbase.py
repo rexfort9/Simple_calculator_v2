@@ -1,42 +1,64 @@
 from colorama import init
 from colorama import Fore, Back, Style
-# Use Colorama to make Termcolor work on Windows too
+# use Colorama to make Termcolor work on Windows too
 init()
 
-# Request for a calculation
-print(Fore.BLACK)
-print(Back.GREEN)
-what = input("What we're up to? (+,-,/,*):")
-
-# Request for variables
+print(Fore.WHITE)
 print(Back.CYAN)
-a = float(input("Print first variable: "))
-b = float(input("Print second variable: "))
+print("Inputting '0' instead of calculation will close the app.")
 
-# Calculating actions & result output
-if what == "+":
-	c = a + b
-	print(Fore.WHITE)
-	print(Back.RED)
-	print("The resolve is: " + str(c))
+while True:
 
-elif what == "-":
-	c = a - b
-	print(Fore.WHITE)
-	print(Back.RED)
-	print("The resolve is: " + str(c))
+	print(Fore.BLACK)
+	print(Back.GREEN)
 
-elif what == "/":
-	c = a / b
-	print(Fore.WHITE)
-	print(Back.RED)
-	print("The resolve is: " + str(c))
 
-elif what == "*":
-	c = a * b
-	print(Fore.WHITE)
-	print(Back.RED)
-	print("The resolve is: " + str(c))
+	what = input("What we're up to? (+,-,/,*):")
+	if what == "0":	
+		print(Fore.RED)
+		print(Back.WHITE)
+		print("Thanks for using my soft!")
+		exit()
+	if what not in ('+','-','*','/','0'):
+		print(Fore.WHITE)
+		print(Back.RED)
+		print("Please, enter the correct command!""\nIt might be calculation sign(+,-,/,*) or quit key(0)")
+	if what in ('+','-','*','/'):
+		print(Back.CYAN)
+		a = float(input("Print first variable: "))
+		b = float(input("Print second variable: "))
 
-else:
-	print("Invalid input...")
+		if what == "+":
+			c = a + b
+			print(Fore.WHITE)
+			print(Back.RED)
+			print(f"The resolve is: {c}")
+
+		elif what == "-":
+			c = a - b
+			print(Fore.WHITE)
+			print(Back.RED)
+			print(f"The resolve is: {c}")
+
+		elif what == "*":
+			c = a * b
+			print(Fore.WHITE)
+			print(Back.RED)
+			print(f"The resolve is: {c}")	
+
+		elif what == "/":
+			if b !=0:
+				c = a / b
+				print(Fore.WHITE)
+				print(Back.RED)
+				print(f"The resolve is: {c}")
+			else:
+				print(Fore.RED)
+				print(Back.BLACK)
+				print("Dividing by Zero is undefined.")
+		
+		else:
+			print(Fore.WHITE)
+			print(Back.RED)
+			print("Invalid input...")
+			break
