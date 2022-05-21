@@ -4,9 +4,10 @@ This basic script makes standard calculations on Python
 ----
 In order to practice something new, I implemented colour scheme with [Colorama](https://pypi.org/project/colorama/) <br>
 It requires pip <br>
-UPD 01
+
+UPD 01 <br>
 ----
-Calculator v2.0.0 updated
+Calculator v2.0.0 updated <br>
 New features: <br>
 	• Looped code <br> 
 	• Quiting option <br>
