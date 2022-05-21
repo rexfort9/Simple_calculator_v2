@@ -14,6 +14,11 @@ New features: <br>
 	• Improved stability (input pop-ups & suggestions) <br>
 	• 'Dividing by zero' warning <br>
 	•  f-string results(provides a way to embed expressions inside string literals, using a minimal syntax) <br>
+
+UPD 02 <br>
+----
+You may find an .exe file, compiled for Windows(Console Based) view in Git <br>
+
 <br>
 ### TO RUN IT: <br>
 • pip install colorama <br>
