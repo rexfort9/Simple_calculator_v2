@@ -9,11 +9,11 @@ UPD 01 <br>
 ----
 Calculator v2.0.0 updated <br>
 New features: <br>
-	• Looped code <br> 
-	• Quiting option <br>
-	• Improved stability (input pop-ups & suggestions) <br>
-	• 'Dividing by zero' warning <br>
-	•  f-string results(provides a way to embed expressions inside string literals, using a minimal syntax) <br>
+	- • Looped code <br> 
+	- • Quiting option <br>
+	- • Improved stability (input pop-ups & suggestions) <br>
+	- • 'Dividing by zero' warning <br>
+	- •  f-string results(provides a way to embed expressions inside string literals, using a minimal syntax) <br>
 <br>
 ### TO RUN IT: <br>
 • pip install colorama <br>
